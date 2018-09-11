@@ -1,0 +1,102 @@
+html,
+body {
+    background-image: url("https://vgy.me/G6cgr4.jpg");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    margin: 2% auto;
+    width: 875px;
+    height: 80%;
+    box-sizing: border-box;
+    background-color: rgb(250, 194, 245);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(236, 114, 226);
+    border: inset;
+    border-width: 10px;
+}
+
+#subwrapper {
+    position: relative;
+}
+
+button {
+    display: block;
+    width: 30%;
+    height: 20%;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 2%;
+    background-color: rgb(250, 194, 245);
+}
+
+img {
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    color: purple;
+    text-transform: uppercase;
+    font-size: 8em;
+    white-space: nowrap;
+    font-size: 8vw;
+    z-index: 1000;
+    font-family: 'impact', cursive;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+    transition-property: (font-size);
+    transition-duration: (0.5s);
+}
+
+@import "compass/css3";
+@import "compass/css3/transform";
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@media screen and (max-width: 50em) {
+    h1 {
+        font-size: 20vw;
+    }
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#start {
+    border: 2px solid purple;
+    background: rgb(236, 114, 226);
+    margin-bottom: 5%;
+}
+
+button:hover {
+    border: 2px solid purple;
+    background: rgb(236, 114, 226);
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
